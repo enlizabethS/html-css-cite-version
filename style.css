@@ -1,0 +1,182 @@
+body{
+    background-color: rgb(229, 168, 201);
+
+}
+.heart {
+    background-color: rgb(144, 30, 30);
+    display: inline-block;
+    height: 50px;
+    margin: 0 30px;
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+    position: absolute; 
+    left: 45%; top: 45%;
+    width: 50px;
+  }
+  
+  .heart:before,
+  .heart:after {
+    content: " ";
+    background-color:rgb(144, 30, 30);
+    border-radius: 50%;
+    height: 50px;
+    position: absolute;
+    width: 50px;
+  }
+  
+  .heart:before {
+    top: -25px;
+    left: 0;
+  }
+  
+  .heart:after {
+    left: 25px;
+    top: 0;
+  }
+  @keyframes heartbeat {
+    0% {
+      transform: scale( 0.1 );    
+    }
+    20% {
+      transform: scale( 1.25 ) 
+        translateX(5%) 
+        translateY(6%);
+    } 
+    40% {
+        transform: scale( 1.5 ) 
+          translateX(7%) 
+          translateY(8%);
+      } 
+
+    70% {
+      transform: scale( 1.8 ) 
+        translateX(10%) 
+        translateY(11%);
+    }
+
+  }
+  .heart {
+    animation: heartbeat 3s infinite;
+  }
+
+
+  .heart1 {
+    background-color:rgb(115, 6, 6);
+    display: inline-block;
+    height: 40px;
+    margin: 0 30px;
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+    position: absolute; 
+    left: 45%; top: 45%;
+    width: 40px;
+  }
+  
+  .heart1:before,
+  .heart1:after {
+    content: " ";
+    background-color:rgb(115, 6, 6);
+    border-radius: 50%;
+    height: 40px;
+    position: absolute;
+    width: 40px;
+  }
+  
+  .heart1:before {
+    top: -25px;
+    left: 0;
+  }
+  
+  .heart1:after {
+    left: 25px;
+    top: 0;
+  }
+  @keyframes heartbeat1 {
+    0% {
+      transform: scale( 0.1 );    
+    }
+    20% {
+      transform: scale( 1.25 ) 
+        translateX(5%) 
+        translateY(6%);
+    } 
+    40% {
+        transform: scale( 1.5 ) 
+          translateX(7%) 
+          translateY(8%);
+      } 
+
+    70% {
+      transform: scale( 1.8 ) 
+        translateX(10%) 
+        translateY(11%);
+    }
+  }
+  .heart1 {
+    animation: heartbeat1 3s infinite;
+  }
+
+h1{
+    text-align: center;
+    color: rgb(151, 30, 30);
+}
+form, p, button{
+    font-weight: 800;
+    text-align: center;
+    color: rgb(151, 30, 30);
+}
+#start{
+    font-weight: 700;
+    text-align: center;
+    color: rgb(151, 30, 30) ;
+    background-color: rgb(174, 95, 161);
+    position: relative;
+left: 50%;
+transform: translate(-50%, 0);
+}
+input{
+    font-weight: 700;
+    color: rgb(151, 30, 30) ;
+    background-color: rgb(174, 95, 161);
+}
+#text{
+    font-weight: 700;
+    font-size: medium;
+    margin: 60px;
+    text-align: center;
+    color: rgb(95, 14, 14);
+}
+#is_login{
+    font-size: 100px;
+
+}
+#id_myself{
+    font-weight: 700;
+    color: rgb(151, 30, 30) ;
+    background-color: rgb(174, 95, 161);
+}
+#submit{
+    font-weight: 800;
+    text-align: center;
+    color: rgb(151, 30, 30);
+}
+h3{
+    text-align: center;
+    color: rgb(90, 30, 30);
+}
+img{
+    width: 300px;
+    height:270px;
+    position: relative;
+    float: right;
+    margin: 10px;
+}
+#kitty{
+    width: 300px;
+    height:270px;
+    position: relative;
+    float: left;
+    margin: 10px;
+}
