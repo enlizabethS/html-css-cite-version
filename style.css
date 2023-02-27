@@ -133,8 +133,7 @@ form, p, button{
     color: rgb(151, 30, 30) ;
     background-color: rgb(174, 95, 161);
     position: relative;
-left: 50%;
-transform: translate(-50%, 0);
+
 }
 input{
     font-weight: 700;
